@@ -1,0 +1,42 @@
+[
+  {
+      "model": "trips.destination",
+      "pk": 1,
+      "fields": {
+          "start_date": "2021-02-11",
+          "end_date": "2021-02-17",
+          "trip": 1,
+          "location": 1
+      }
+  },
+  {
+      "model": "trips.destination",
+      "pk": 2,
+      "fields": {
+          "start_date": "2021-02-18",
+          "end_date": "2021-03-23",
+          "trip": 1,
+          "location": 2
+      }
+  },
+  {
+      "model": "trips.destination",
+      "pk": 3,
+      "fields": {
+          "start_date": "2021-01-18",
+          "end_date": "2021-01-23",
+          "trip": 2,
+          "location": 3
+      }
+  },
+  {
+      "model": "trips.destination",
+      "pk": 4,
+      "fields": {
+          "start_date": "2020-12-05",
+          "end_date": "2021-12-30",
+          "trip": 3,
+          "location": 4
+      }
+  }
+]

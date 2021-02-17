@@ -1,0 +1,16 @@
+*.pyc
+*.idea
+__pycache__
+venv*
+.venv
+
+*~
+.vscode
+
+#MACOS
+.DS_Store
+
+#Kubuntu - Dolphin
+.directory
+
+tech_test/db.sqlite3

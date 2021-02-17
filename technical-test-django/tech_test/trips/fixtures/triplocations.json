@@ -1,0 +1,29 @@
+[
+    {
+        "model": "trips.trip",
+        "pk": 1,
+        "fields": {
+            "name": "Test Trip",
+            "created": "2021-02-11",
+            "locations": [1, 2]
+        }
+    },
+    {
+        "model": "trips.trip",
+        "pk": 2,
+        "fields": {
+            "name": "Leisure Trip",
+            "created": "2021-01-01",
+            "locations": [3]
+        }
+    },
+    {
+        "model": "trips.trip",
+        "pk": 3,
+        "fields": {
+            "name": "Work Trip",
+            "created": "2020-11-11",
+            "locations": [4]
+        }
+    }
+]

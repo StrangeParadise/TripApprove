@@ -1,0 +1,30 @@
+[
+    {
+        "model": "trips.location",
+        "pk": 1,
+        "fields": {
+            "name": "Paris"
+        }
+    },
+    {
+        "model": "trips.location",
+        "pk": 2,
+        "fields": {
+            "name": "London"
+        }
+    },
+    {
+        "model": "trips.location",
+        "pk": 3,
+        "fields": {
+            "name": "Duckburg"
+        }
+    },
+    {
+        "model": "trips.location",
+        "pk": 4,
+        "fields": {
+            "name": "Toronto"
+        }
+    }
+]

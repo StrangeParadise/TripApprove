@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.8"
+
+[packages]
+arrow = "*"
+boto3 = "*"
+django = "==3.0.11"
+djangorestframework = "*"
+envdir = "*"
+requests = "*"
+uwsgi = "*"
+djangorestframework-jsonapi = "*"
+
+[dev-packages]
+ipdb = "*"
+pycodestyle = "*"
+pylint = "==2.4.4"
+pylint-django = "*"
+isort = "*"
