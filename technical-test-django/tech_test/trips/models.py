@@ -21,3 +21,4 @@ class Trip(models.Model):
     )
     created = models.DateField(auto_now=True)
     name = models.CharField(max_length=256)
+    locations = models.ManyToManyField(Location)
