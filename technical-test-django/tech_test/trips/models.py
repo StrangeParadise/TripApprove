@@ -1,5 +1,9 @@
 from django.db import models
 
+class Location(models.Model):
+    ''' Location model '''
+
+    name = models.CharField(max_length=256)
 
 class Trip(models.Model):
     ''' Trip model '''
