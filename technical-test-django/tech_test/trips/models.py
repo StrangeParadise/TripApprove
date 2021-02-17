@@ -22,6 +22,7 @@ class Trip(models.Model):
     created = models.DateField(auto_now=True)
     name = models.CharField(max_length=256)
     locations = models.ManyToManyField(Location)
+    destinations = models.ForeignKey('Destination', on_delete=models.CASCADE, related_name='+', null=True, blank=True)
 
 class Destination(models.Model):
     ''' Destination model '''
